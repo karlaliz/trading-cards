@@ -1,0 +1,43 @@
+/* add your CSS here */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+img{
+    width: 300px;
+    padding-bottom: 18px
+
+}
+h1{
+   font-size: 60px;
+   margin:18px 0px 18px 0px;
+    
+}
+
+.italic{
+    font-style: italic;
+}
+
+.font-normal{
+    font-style: normal;
+
+}
+
+span{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#animal-card{
+    border-style: groove;
+    padding: 18px;
+}
+#content-text{
+    border-style: groove;
+    padding-right: 18px;
+    padding-left: 18px;
+} 
