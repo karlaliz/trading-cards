@@ -1,43 +1,49 @@
 /* add your CSS here */
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: large;
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    color: white;
 }
-img{
+
+img {
     width: 300px;
-    padding-bottom: 18px
-
+    padding-bottom: 18px;
+    border-radius: 15px;
 }
-h1{
-   font-size: 60px;
+
+h1 {
+   font-size: 40px;
    margin:18px 0px 18px 0px;
-    
+   color: #331a00;   
 }
 
-.italic{
-    font-style: italic;
-}
-
-.font-normal{
-    font-style: normal;
-
-}
-
-span{
-    font-weight: bold;
-}
-
-ul{
+ul {
     list-style-type: none;
     padding: 0px;
 }
 
-#animal-card{
+.italic {
+    font-style: italic;
+}
+
+.font-normal {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.animal-card {
     border-style: groove;
     padding: 18px;
-}
-#content-text{
+    width: 300px;
+    border-radius: 15px;
+    background: linear-gradient(white, green);
+
+} 
+
+.text {
     border-style: groove;
     padding-right: 18px;
     padding-left: 18px;
+    width: 258px;
+    border-radius: 15px;
 } 
